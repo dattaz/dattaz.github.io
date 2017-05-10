@@ -181,7 +181,7 @@ Module.expectedDataFileDownloads++;
   }
 
  }
- loadPackage({"files": [{"audio": 0, "start": 0, "crunched": 0, "end": 12064206, "filename": "/ekopedia_fr_all_2017-04.zim"}], "remote_package_size": 12064206, "package_uuid": "3ef4ceb1-49b9-4eec-ae63-4466fba720e5"});
+ loadPackage({"files": [{"audio": 0, "start": 0, "crunched": 0, "end": 1975441, "filename": "/meta.esperanto.stackexchange.com_eng_all_2017-05.zim"}], "remote_package_size": 1975441, "package_uuid": "54bc46db-37dc-4391-8c78-e3c4320d6902"});
 
 })();
 
@@ -1399,7 +1399,7 @@ function enlargeMemory() {
 
 
 var TOTAL_STACK = Module['TOTAL_STACK'] || 5242880;
-var TOTAL_MEMORY = Module['TOTAL_MEMORY'] || 1677721600;
+var TOTAL_MEMORY = Module['TOTAL_MEMORY'] || 16777216;
 if (TOTAL_MEMORY < TOTAL_STACK) Module.printErr('TOTAL_MEMORY should be larger than TOTAL_STACK, was ' + TOTAL_MEMORY + '! (TOTAL_STACK=' + TOTAL_STACK + ')');
 
 // Initialize the runtime's memory
@@ -2156,7 +2156,7 @@ var ASM_CONSTS = [];
 
 STATIC_BASE = Runtime.GLOBAL_BASE;
 
-STATICTOP = STATIC_BASE + 25904;
+STATICTOP = STATIC_BASE + 25936;
   /* global initializers */  __ATINIT__.push({ func: function() { __GLOBAL__I_000101() } }, { func: function() { __GLOBAL__sub_I_iostream_cpp() } });
   
 
@@ -2165,7 +2165,7 @@ memoryInitializer = Module["wasmJSMethod"].indexOf("asmjs") >= 0 || Module["wasm
 
 
 
-var STATIC_BUMP = 25904;
+var STATIC_BUMP = 25936;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 
